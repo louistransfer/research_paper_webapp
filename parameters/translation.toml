@@ -1,0 +1,70 @@
+["Data science usage"]
+"Pas du tout" = "Not at all"
+"De manière expérimentale" = "In an experimental fashion"
+"Sur certains deals particuliers ou sur certaines étapes précises des deals" = "On some particular deals or on some specific steps of the deals"
+"De manière régulière" = "Regularly"
+"De manière systématique" = "Systematically"
+
+["Will increase use in the future"]
+"Oui" = "Yes"
+"Non" = "No"
+
+["At which stage of the deal process"]
+'"Sourcing", "deal-flow" (trouver de nouvelles sociétés et opportunités d’investissement)' = '"Sourcing", "deal-flow" (finding new companies and investment opportunities)'
+'"Screening", "deal-selection" (sélectionner les sociétés à financer)' = '"Screening", "deal-selection" (selecting which companies to fund)'
+'"Structuring" de la relation avec les sociétés en portefeuille (type de contrats, termes de financements, etc.)' = '"Structuring" of the relationship with the portfolio companies (contract types, financing terms, etc)'
+'Valeur ajoutée, "coaching", post-investissement' = 'Added value, "coaching", post-investment'
+
+["Main usage reason"]
+"La grande quantité de startups et d’opportunités d’investissement" = "The high quantity of startups and investment opportunities"
+"La compétition accrue entre les fonds de VCs" = "Increased competition between VC funds"
+'La volonté d’être moins "biaisé" dans les choix d’investissements' = 'Lowering "bias" in investment decisions'
+
+["Data sources"]
+"Base de données commerciales (Crunchbase, Bloomberg, etc)" = "Commercial databases (Crunchbase, Bloomberg, etc)"
+"Données de performance historique des fonds et des deals" = "Historical performance of funds and deals data"
+"Données issues de réseaux sociaux (Twitter, Linkedin, etc.)" = "Social networks data (Twitter, Linkedin, etc.)"
+"Données issues de plateformes en ligne (GitHub, ProductHunt, etc)" = "Online platforms data (GitHub, ProductHunt, etc)"
+"Données administratives (répertoires officiels de sociétés créées, brevets, articles académiques, etc)" = "Administrative data (official registries of created companies, patents, academic papers, etc)"
+"Données issues du scrapping d’autres sources" = "Data generated from other scrapped sources"
+
+["Technologies used"]
+'Langage de programmation "scientifique": Python, R, etc' = '"Scientific" programming language : Python, R, etc'
+"Technologies Big Data : Spark, Hadoop, Scala..." = "Big Data technologies : Spark, Hadoop, Scala..."
+"Autre langage de programmation (exemple Java, Rust, Julia, Typescript...)" = "Other programming language (for instance Java, Rust, Julia, Typescript...)"
+"Plate-forme de MLOps (Dataiku, H20...)" = "MLOps platform (Dataiku, H20...)"
+"Outils d’automatisation : services no-code (Make, Zappier...), envoi de mails automatisés…" = "Automatisation tools: no-code services (Make, Zappier...), automated mail sending…"
+"Algorithmes de classification (k-Nearest Neighbors, Random Forest, etc)" = "Classification algorithms (k-Nearest Neighbors, Random Forest, etc)"
+"Algorithmes de prédiction (régressions, lasso, etc)" = "Prediction algorithms (regression, lasso, etc)"
+"Analyse textuelle (NLP...)" = "Text analysis (NLP...)"
+"Réseaux de neurones" = "Neural networks"
+
+["Effect on investments"]
+"Pas d’effet ou effet négatif" = "No effect or negative effect"
+"Effet limité" = "Limited effect"
+"Effet significatif" = "Significant effect"
+
+["How ?"]
+"Meilleur deal-flow (découverte/accès à plus de startups)" = "Better deal-flow (discovery/access to more startups)"
+"Meilleur processus de sélection des sociétés à financer" = "Better selection process of the companies to invest in"
+"Meilleure relation/conseil avec les sociétés en portefeuilles" = "Better relation with/advice to the portfolio companies"
+
+["Implementation time"]
+"Moins d'un an" = "Less than a year"
+"Entre 1 et 2 ans" = "Between 1 and 2 years"
+"Entre 3 et 5 ans" = "Between 3 and 5 years"
+"Plus de 5 ans" = "More than 5 years"
+
+["Internal resistance"]
+"Oui : des résistances internes à l'adoption" = "Yes : internal resistance to adoption"
+"Oui : des résistances externes à l'adoption (partenaires, start-ups cibles)" = "Yes : external resistance to adoption (partner companies, target start-ups)"
+"Non" = "No"
+"On a une équipe tech en interne" = "We have an internal tech team"
+
+["Finds business/tech profiles"]
+"Oui" = "Yes"
+"Non" = "No"
+
+["Can be contacted for an interview"]
+"Oui" = "Yes"
+"Non" = "No"

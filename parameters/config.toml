@@ -1,0 +1,90 @@
+[data]
+default_data_path = "data"
+yaml_questions_path = "parameters/questions_mapping.toml"
+yaml_translation_path = "parameters/translation.toml"
+
+[forms]
+multi_choice_columns = [
+    "At which stage of the deal process",
+    "Main usage reason",
+    "Data sources",
+    "Technologies used",
+    "How ?",
+]
+
+[forms.new_column_names]
+2 = "Data science usage"
+3 = "Will increase use in the future"
+4 = "At which stage of the deal process"
+5 = "Main usage reason"
+6 = "Data sources"
+7 = "Technologies used"
+8 = "Effect on investments"
+9 = "How ?"
+10 = "Implementation time"
+11 = "Internal resistance"
+12 = "Finds business/tech profiles"
+13 = "Can be contacted for an interview"
+[forms.analysis]
+[forms.analysis.cardinal_columns]
+[forms.analysis.cardinal_columns."Data science usage"]
+"Not at all" = 0
+"In an experimental fashion" = 1
+"On some particular deals or on some specific steps of the deals" = 3
+"Regularly" = 4
+"Systematically" = 5
+[forms.analysis.cardinal_columns."Will increase use in the future"]
+"No" = 0
+"Yes" = 1
+[forms.analysis.cardinal_columns."Effect on investments"]
+None = 0
+"No effect or negative effect" = 0
+"Limited effect" = 1
+"Significant effect" = 2
+[forms.analysis.cardinal_columns."Implementation time"]
+"Between 1 and 2 years" = 1
+"Less than a year" = 2
+"More than 5 years" = 3
+[forms.analysis.cardinal_columns."Finds business/tech profiles"]
+"No" = 0
+"Yes" = 1
+[forms.analysis.scores]
+[forms.analysis.scores."Technologies used"]
+'"Scientific" programming language : Python, R, etc' = 1
+'Automatisation tools: no-code services (Make, Zappier...), automated mail sending…' = 1
+'Big Data technologies : Spark, Hadoop, Scala...' = 3
+'Classification algorithms (k-Nearest Neighbors, Random Forest, etc)' = 2
+'MLOps platform (Dataiku, H20...)' = 3
+'Neural networks' = 5
+'Other programming language (for instance Java, Rust, Julia, Typescript...)' = 4
+'Prediction algorithms (regression, lasso, etc)' = 2
+'Spreadsheets, SQL' = 1
+'Text analysis (NLP...)' = 2
+
+[refinitiv]
+[refinitiv.new_column_names]
+"No. of Funds" = "Nb funds"
+"Fund Size\n(USD, Millions)" = "Fund Size"
+"Known Equity Invested\n(USD, Millions)" = "Sum Equity Invested"
+"Estimated Equity Available\n(USD, Millions)" = "Estimated Equity Available"
+"No. of Companies Invested In" = "Nb companies invested in"
+"Deal Rank Value\n(USD, Millions)" = "Sum Deal Rank"
+"Firm Investors Stage Investment Preference\n('|')" = "Firm Stage"
+"Firm Investors Industry Investment Preference\n('|')" = "Firm Industry"
+
+[assets]
+[assets.pdf]
+research_paper_pdf_path = "assets/pdf/ResearchPaperV2Opti.pdf"
+research_paper_pdf_id = "1SIAjDJBEWavV5KgDFSdWP7BcRZH7NrPw"
+defense_pdf_path = "assets/pdf/ResearchPaperDefense.pdf"
+defense_pdf_id = "1vZpGNJtPq3Ga4QADUGnwbfD_3SIfdoOG"
+resume_path = "assets/pdf/Resume - Louis Bertolotti.pdf"
+cv_path = "assets/pdf/CV - Louis Bertolotti.pdf"
+[assets.markdown]
+introduction_path = "assets/markdown/introduction.md"
+survey_intro_path = "assets/markdown/survey_intro.md"
+personal_presentation_path = "assets/markdown/personal_presentation.md"
+contact_information_path = "assets/markdown/contact_information.md"
+[assets.images]
+unified_logo_path = "assets/images/unified_logo.png"
+identity_photo_path = "assets/images/identity_photo.png"
